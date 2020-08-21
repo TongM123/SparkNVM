@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/util/configuration/nvm/nvmConf.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error line="28" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="87" line="8" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="93" line="11" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/shuffle/nvm/BaseShuffleWriter.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="8" line="71" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/util/collection/nvm/nvmExternalSorter.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error line="88" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="12" line="342" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="6" line="255" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="4" line="104" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="10" line="285" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="12" line="289" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="10" line="321" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="4" line="168" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="90" line="77" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;map&quot; appears 2 times in the file."/>
+  <error column="116" line="77" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;buffer&quot; appears 2 times in the file."/>
+  <error column="4" line="168" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/shuffle/nvm/nvmShuffleBlockResolver.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/storage/nvm/nvmManagedBuffer.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.IllegalImportsChecker" severity="warning" message="Import from illegal package"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/storage/nvm/nvmBlockOutputStream.scala">
+  <error column="0" line="68" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="11" line="134" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error line="61" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="68" source="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker" severity="warning" message="Boolean expression can be simplified"/>
+  <error column="8" line="87" source="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker" severity="warning" message="Boolean expression can be simplified"/>
+  <error column="12" line="100" source="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker" severity="warning" message="Boolean expression can be simplified"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/storage/nvm/nvmInputStream.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="8" line="34" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="6" line="44" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="4" line="19" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="16" line="55" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/shuffle/nvm/nvmShuffleManager.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="119" line="37" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="122" line="40" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error line="45" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="4" line="64" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/shuffle/nvm/nvmShuffleWriter.scala">
+  <error column="0" line="69" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="119" line="51" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="60" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="68" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="73" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="79" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="92" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="100" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="119" line="51" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="8" line="121" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="15" line="50" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="6" line="78" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="4" line="92" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/storage/nvm/nvmBlockInputStream.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="8" line="28" source="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker" severity="warning" message="Boolean expression can be simplified"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/storage/nvm/PersistentMemoryHandler.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="32" line="61" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="0" line="42" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="0" line="68" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="32" line="61" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error line="99" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="12" line="57" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/shuffle/nvm/BaseShuffleReader.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="97" line="28" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="64" line="28" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="79" line="28" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="97" line="28" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="15" line="105" source="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker" severity="warning" message="Boolean expression can be simplified"/>
+  <error column="15" line="30" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/test/scala/org/apache/spark/shuffle/nvm/nvmShuffleWriterWithSortSuite.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="6" line="110" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="104" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="18" line="110" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; &quot; appears 4 times in the file."/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/main/scala/org/apache/spark/storage/nvm/nvmOutputStream.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="23" line="50" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+ </file>
+ <file name="/root/Spark/SparkNVM/core/src/test/scala/org/apache/spark/shuffle/nvm/nvmShuffleWriterSuite.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="26" line="104" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="4" line="92" source="org.scalastyle.scalariform.WhileChecker" severity="warning" message="Avoid using while loops"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+</checkstyle>

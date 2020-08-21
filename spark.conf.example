@@ -1,0 +1,35 @@
+spark.master                     spark://master:7077
+spark.eventLog.enabled           true
+spark.eventLog.dir               hdfs://master:9000/spark-logs
+spark.eventLog.enabled           true
+spark.eventLog.dir               hdfs://master:9000/spark-logs
+# spark.serializer                 org.apache.spark.serializer.KryoSerializer
+# spark.driver.memory              5g
+# spark.executor.extraJavaOptions  -XX:+PrintGCDetails -Dkey=value -Dnumbers="one two three"
+
+spark.shuffle.compress false
+
+spark.driver.extraClassPath /home/hadoop/SparkNVM/core/target/java-1.0-jar-with-dependencies.jar
+spark.executor.extraClassPath /home/hadoop/SparkNVM/core/target/java-1.0-jar-with-dependencies.jar
+spark.shuffle.manager org.apache.spark.shuffle.nvm.nvmShuffleManager
+spark.shuffle.nvm.enable_pmem true
+
+# spark.shuffle.nvm.enable_rdma false
+# spark.shuffle.nvm.pmem_list /mnt/mem
+# spark.shuffle.spill.nvm.MemoryThreshold 16777216 
+
+
+# spark.shuffle.nvm.server_buffer_nums 32
+# spark.shuffle.nvm.client_buffer_nums 32
+# spark.shuffle.nvm.map_serializer_buffer_size 262144
+# spark.shuffle.nvm.reduce_serializer_buffer_size 262144
+# spark.shuffle.nvm.chunk_size 262144
+# spark.shuffle.nvm.server_pool_size 2
+# spark.shuffle.nvm.client_pool_size 2
+# spark.shuffle.nvm.shuffle_block_size 2097152
+# spark.shuffle.nvm.node 192.168.1.164-master,192.168.1.165-slave1,192.168.1.166-slave2,192.168.0.215-slave3
+
+
+
+# spark.driver.rhost 192.168.1.164
+# spark.shuffle.detectCorrupt false

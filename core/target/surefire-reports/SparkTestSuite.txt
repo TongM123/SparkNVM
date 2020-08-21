@@ -1,0 +1,4 @@
+[36mDiscovery starting.[0m
+[36mDiscovery completed in 148 milliseconds.[0m
+[36mRun starting. Expected test count is: 3[0m
+[32mnvmShuffleWriterSuite:[0m
